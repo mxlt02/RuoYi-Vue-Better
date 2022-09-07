@@ -11,6 +11,11 @@ import com.ruoyi.common.core.domain.BaseEntity;
 #elseif($table.tree)
 import com.ruoyi.common.core.domain.TreeEntity;
 #end
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.Accessors;
 
 /**
  * ${functionName}对象 ${tableName}
